@@ -319,3 +319,8 @@ a { color: inherit; text-decoration: none; }
 
 /* Terminales: las líneas se ocultan hasta que main.js las revela */
 .js .cli-line.is-pending { visibility: hidden; }
+
+/* utilidades (reemplazan style="" inline por la CSP) */
+.mt-80 { margin-top: 80px; }
+.mb-12 { margin-bottom: 12px; }
+.not-found { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 20px; }
